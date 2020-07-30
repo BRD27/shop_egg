@@ -72,3 +72,54 @@
     width: 321px;
     text-align: center;
 }
+
+.header_img {
+    height: 100%;
+}
+
+@media (max-width: 1024px) {
+
+    .header {
+        margin-bottom: 50px;
+    }
+
+    .header_slogon {
+        margin-bottom: 0;
+    }
+    
+    .header_btn {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .header_img {
+        height: 100%;
+        width: 440px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .header_nav_ul li:last-child {
+        margin: 0;
+    }
+
+    .header_nav_ul_li_a_logo {
+        margin: 0;
+    }
+
+    .header_h1 {
+        font-size: 36px;
+    }
+
+    .header_btn {
+        font-size: 20px;
+        width: 270px;
+        margin-top: 20px;
+        padding: 12px 45px;
+    }
+
+    .header_img {
+        width: 370px;
+    }
+}

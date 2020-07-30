@@ -40,3 +40,18 @@
 .footer_img_a {
     text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+
+    .footer_ul_li {
+        margin-right: 39px;
+    }
+
+    .footer_ul_li.text {
+        font-size: 20px;
+    }
+
+    .footer_img_a svg {
+        width: 40px;
+    }
+}

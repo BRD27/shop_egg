@@ -10,3 +10,26 @@
     line-height: 33px;
 }
 
+@media (max-width: 1024px) {
+    .about_us_img {
+        height: 100%;
+        width: 300px;
+    }
+
+    .about_us_text p {
+        background: none;
+        padding: 50px 75px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .about_us_img {
+        width: 250px;
+    }
+
+    .about_us_text p {
+        padding: 10px 40px;
+        font-size: 18px;
+    }
+}

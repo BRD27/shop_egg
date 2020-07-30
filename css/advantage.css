@@ -30,3 +30,9 @@
     width: 91px;
     height: 67px;
 }
+
+@media (max-width: 768px) {
+    .advantage_type {
+        font-size: 19px;
+    }
+}
