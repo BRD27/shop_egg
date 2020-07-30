@@ -1,0 +1,61 @@
+.product {
+    margin-top: 80px;
+}
+
+.product .container {
+    background: url(../img/product_bg.webp) no-repeat bottom;
+    background-size: contain;
+    padding-bottom: 235px;
+}
+
+.prooduct_types {
+    margin-top: 73px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_type {
+    margin: 0 auto;
+    box-shadow: 3px 3px 9px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    text-align: center;
+    max-width: 460px;
+    /* Если продукции больше 1 вида */
+    margin: 0 30px 30px;
+}
+
+.product_name, .product_price {
+    font-size: 24px;
+    line-height: 33px;
+    color: #E8782D;
+}
+
+.product_price {
+    margin-bottom: 40px;
+}
+
+.product_img_fried_egg {
+    position: absolute;
+    top: -5px;
+    left: -35px;
+    transition: 1s;
+}
+
+.product_order:hover >
+.product_img_fried_egg {
+    left: 170px;
+}
+
+.product_order {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    padding: 14px 65px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #CBEB08 0%, #729918 100%);
+    border-radius: 40px;
+    text-decoration: none;
+}
+

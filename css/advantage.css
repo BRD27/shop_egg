@@ -1,0 +1,32 @@
+.advantage {
+    background: #FCF8F8;
+    padding-top: 92px;
+    padding-bottom: 73px;
+}
+
+.advantage_type {
+    padding-top: 60px;
+    margin-top: 92px;
+    max-width: 175px;
+    text-align: center;
+    font-size: 21px;
+    line-height: 29px;
+}
+.advantage_type.type_1 {
+    background: url(../img/advantage_type_1.webp) no-repeat top center;
+}
+
+.advantage_type.type_2 {
+    background: url(../img/advantage_type_2.webp) no-repeat top center;
+}
+
+.advantage_type.type_3 {
+    background: url(../img/advantage_type_3.webp) no-repeat top center;
+}
+
+.advantage_egg {
+    align-self: center;
+    margin-top: 60px;
+    width: 91px;
+    height: 67px;
+}

@@ -1,0 +1,74 @@
+.header {
+    margin-bottom: 145px;
+}
+
+.header_nav_ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header_nav_ul li {
+    display: inline;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.header_nav_ul li a {
+    text-decoration: none;
+}
+
+.header_nav_ul_li_a_logo {
+    margin-right: 165px;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FB9848;
+}
+
+.header_nav_ul_li_a, .header_nav_ul_li_p {
+    color: #425831;
+}
+
+.header_nav_ul_li_a_number {
+    color: #FB9848;
+}
+
+.header_nav_ul li:last-child {
+    margin-left: 165px;
+}
+
+.header_slogon {
+    margin-bottom: 145px;
+}
+
+.header_h1 {
+    margin-top: 130px;
+    font-size: 48px;
+    line-height: 52px;
+    color: #6D7F1F;
+}
+
+.header_p {
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FB9848;
+}
+
+.header_btn {
+    display: block;
+    text-decoration: none;
+    margin-top: 220px;
+    margin-left: 65px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #425831;
+    padding: 17px 45px;
+    background: linear-gradient(90deg, #FFBB54 16.04%, #FB9848 100%);
+    box-shadow: 1px 5px 6px rgba(0, 0, 0, 0.34);
+    border-radius: 40px;
+    width: 321px;
+    text-align: center;
+}

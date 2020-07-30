@@ -1,0 +1,52 @@
+.form {
+    padding: 126px 0 60px 0;
+    background: #FCF8F8;
+}
+
+.forma {
+    border: 2px solid #99CA00;
+    border-radius: 40px;
+    width: 319px;
+    height: 79px;
+}
+
+.forms {
+    padding: 155px 0;
+    background: url(../img/form_leave_1.webp) no-repeat 0 0, url(../img/form_leave_2.webp) no-repeat 100% 86%;
+}
+
+.form_name, .form_tel {
+    padding: 27px 0 27px 41px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.09em;
+    color: #99CA00;
+    background: #FCF8F8;
+}
+
+.form_name:focus, .form_tel:focus {
+    outline: none;
+}
+
+.form_name::placeholder, .form_tel::placeholder {
+    color: #99CA00;
+}
+
+.form_name {
+    margin-right: 31px;
+}
+
+.form_tel {
+    margin-right: 57px;
+}
+
+.form_btn {
+    background: linear-gradient(90deg, #C5E50A 0%, #83A916 100%), #99CA00;
+    border-radius: 40px;
+    border: none;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
