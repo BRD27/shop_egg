@@ -20,14 +20,26 @@ body {
     justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1024px) {
     .container {
-        max-width: 960px;
+        width: 960px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .container {
-        max-width: 720px;
+        width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        width: 95%;
     }
 }

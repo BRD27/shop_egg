@@ -1,3 +1,13 @@
 .map .common_h2 {
     margin: 58px 0;
 }
+
+.map_ya {
+    height: 550px;
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+    .map_ya {
+        height: 373px;
+    }
+}

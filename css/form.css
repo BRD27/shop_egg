@@ -51,48 +51,18 @@
     cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1024px) {
     .form {
-        padding-top: 80px;
+        padding: 100px 0 0 0;
     }
 
     .forma {
-        width: 279px;
-        height: 64px;
-        font-size: 19px;
-    }
-
-    .forms {
-        padding: 130px 0;
-        background: url(../img/form_leave_1.webp) no-repeat 0 -20%, url(../img/form_leave_2.webp) no-repeat 100% 100%;
-    }
-}
-
-@media (max-width: 768px) {
-
-    .forma {
-        display: block;
         width: 257px;
-        margin: 0 auto;
+        height: 64px;
     }
 
-    .form_name {
-        margin-bottom: 40px;
+    .form_btn {
+        font-size: 19px;
+        line-height: 26px;
     }
-
-    .form_tel {
-        margin-bottom: 65px;
-    }
-
-    .forms {
-        background: #FFFFFF;
-        box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.25);
-        border-radius: 40px;
-        width: 315px;
-        height: 387px;
-        margin: 50px auto 0 auto;
-        padding: 40px 29px;
-    }
-
-
 }

@@ -31,8 +31,8 @@
     height: 67px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 992px) and (max-width: 1024px) {
     .advantage_type {
-        font-size: 19px;
+        margin-top: 60px;
     }
 }

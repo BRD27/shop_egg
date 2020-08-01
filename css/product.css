@@ -59,41 +59,27 @@
     text-decoration: none;
 }
 
-@media (max-width: 1024px) {
-    
+@media (min-width: 992px) and (max-width: 1024px) {
     .product .container {
         padding-bottom: 200px;
     }
-
+    
     .product_type {
-        width: 260px;
+        width: 273px;
+        margin: 0 2.4% 30px;
     }
 
     .product_img {
-        width: 240px;
-    }
-
-    .product_order {
-        padding: 10px 50px;
+        width: 267px;
     }
 
     .product_img_fried_egg {
-        width: 80px;
+        width: 76px;
+        top: 0;
+        left: -20px;
     }
 
-    .product_order:hover >
-    .product_img_fried_egg {
-        left: -35px;
-    }
-}
-
-@media (max-width:768px) {
-
-    .product .container {
-        padding-bottom: 160px;
-    }
-    
-    .product_type {
-        margin: 15px 6%;
+    .product_order:hover > .product_img_fried_egg {
+        left: -20px;
     }
 }

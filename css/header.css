@@ -75,51 +75,115 @@
 
 .header_img {
     height: 100%;
+    width: 574px;
 }
 
-@media (max-width: 1024px) {
+.wrap, .mobile_menu, .wrap > a, .toggle {
+    display: none;
+    text-decoration: none;
+}
 
+.wrap {
+    margin-top: 30px;
+}
+
+.mobile_menu {
+    opacity: 0;
+    position: absolute;
+    top: 65px;
+    right: calc((100vw - 720px)/2);
+    display: block;
+    list-style: none;
+    text-align: end;
+    transition: 1s ease-in;
+}
+
+.mobile_menu li {
+    margin-top: 6px;
+}
+
+.toggle_ {
+    color: #FB9848;
+}
+
+.mobile_ul label hr {
+    color: #000;
+    height: 3px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
     .header {
-        margin-bottom: 50px;
-    }
-
-    .header_slogon {
         margin-bottom: 0;
-    }
-    
-    .header_btn {
-        margin-left: 0;
-        margin-top: 100px;
-    }
-
-    .header_img {
-        height: 100%;
-        width: 440px;
-    }
-}
-
-@media (max-width: 768px) {
-    
-    .header_nav_ul li:last-child {
-        margin: 0;
     }
 
     .header_nav_ul_li_a_logo {
-        margin: 0;
+        margin-right: 90px;
     }
 
-    .header_h1 {
-        font-size: 36px;
+    .header_nav_ul li:last-child {
+        margin-left: 90px;
     }
 
     .header_btn {
-        font-size: 20px;
-        width: 270px;
-        margin-top: 20px;
-        padding: 12px 45px;
+        margin-left: 0;
+        margin-top: 105px;
+    }
+
+    .header_img {
+        width: 500px;
+    }
+}
+
+@media (max-width: 991px) {        
+    .header_h1 {
+        margin-top: 80px;
+        font-size: 36px;
+        line-height: 39px;
     }
 
     .header_img {
         width: 370px;
     }
-}
+
+    .header_btn {
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .wrap {
+        display: block;
+    }
+
+    .mobile_ul {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        list-style: none;
+        align-items: center;
+    }
+
+    .mobile_ul .logo {
+        font-size: 36px;
+        line-height: 39px;
+        color: #FB9848;
+    }
+
+    .mobile_ul ~ a {
+        text-decoration: none;
+    }
+
+    .toggle:checked ~ .mobile_menu {
+        transition: 1s ease-in;
+        opacity: 1;
+    }
+
+    .header_nav_ul_li_a, .header_nav_ul_li_p, .header_nav_ul_li_a_number {
+        text-decoration: none;
+    }
+ }
