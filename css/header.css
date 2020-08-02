@@ -182,6 +182,7 @@
         right: 15px;
         opacity: 0;
         cursor: alias;
+        z-index: -1;
     }
     
     .mobile_menu li:nth-child(1) {
@@ -207,5 +208,6 @@
     .toggle:checked ~ .mobile_menu li:nth-child(n+1) {
         display: inline;
         opacity: 1;
+        z-index: 1;
     }
  }
