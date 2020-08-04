@@ -4,3 +4,9 @@
     line-height: 52px;
     color: #EA8744;
 }
+
+@media (max-width: 767px) {
+    .common_h2 {
+        font-size: 36px;
+    }
+}

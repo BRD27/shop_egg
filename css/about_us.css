@@ -1,4 +1,4 @@
-.about_us .container {
+.about_us {
     background: url(../img/about_us_bg.webp) no-repeat bottom;
     background-size: contain;
 }
@@ -18,5 +18,54 @@
 
     .about_us_text p {
         padding: 92px 65px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about_us_img {
+        width: 234px;
+        height: 334px;
+    }
+
+    .about_us_text p {
+        background: none;
+        font-size: 21px;
+        line-height: 29px;
+        padding: 45px 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about_us {
+        margin-top: 60px;
+    }
+
+    .about_us_img {
+        width: 200px;
+        height: 280px;
+    }
+
+    .about_us_text p {
+        padding: 30px 17px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    .about_us .container {
+        background-color: rgba(255, 255, 255, 0.4);
+        position: relative;
+    }
+
+    .about_us_img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        opacity: 0.4;
+    }
+
+    .about_us_text p {
+        text-align: center;
     }
 }
